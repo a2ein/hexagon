@@ -18,13 +18,24 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: rgb(247, 21, 70);
 }
 /* about section image css */
 .imageAboutPage {
     width: 100%;
 }
+/*team*/
+.cardteam{ width: 20%;}
+.card-body-team{
+text-align: center;
+color: #771b1b;
+font-family: cursive;
 
+}
+.card-text-team{
+color: #026e81;
+font-variant: small-caps;
+}
 /* services section css */
 .servicesText.card {
     height: 280px;
@@ -42,11 +53,11 @@
     color: #008000;
 }
 .servicesText:hover {
-    border: 1px solid #008000;
+    border: 1px solid #026e81;
 }
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: black;
+    background-color: rgba(5, 103, 148, 0.171)
 }
 
 /* social media icons styling */
@@ -55,14 +66,14 @@
     cursor: pointer;
 }
 .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
-    color: #008000;
+    color: #008060;
 }
 .fab {
     color: #000000;
 }
 /* footer styling */
 #footer {
-    background-color: #808080;
+    background-color: #fcf9f988;
     text-align: center;
 }
 /* spacing on all sections */
@@ -73,3 +84,17 @@
 #contact {
     padding-bottom: 4rem;
 }
+.nav-link {
+font-family: cursive;
+    color:#14667a;
+    font-size: 20px;
+    font-style: oblique;
+}
+.navbar-brand{
+font-weight: 500;
+font-family: fantasy;
+    color: rgb(31, 0, 13);
+    font-size: 20px;    
+}
+
+
