@@ -32,6 +32,35 @@ color: #771b1b;
 font-family: cursive;
 
 }
+/*background*/
+.background_about {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/white.jpeg');
+ 
+}
+.background_serve {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/wd.jpeg');
+  
+}
+.background_team {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/gteam.jpeg');
+
+}.background_port{ background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/portfolio-vector-1632227.jpg');
+}
+.background_footer {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/blackquote.jpg');
+
+}
+
+.quotes{
+
+    background-image: url(img/blackquote.jpg);
+    backdrop-filter: blur(5%);
+    opacity: 20px;
+}
+.card-img-top{
+ text-align: center;
+    align-items: center;
+}
 .card-text-team{
 color: #026e81;
 font-variant: small-caps;
