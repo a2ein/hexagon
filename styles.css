@@ -15,6 +15,14 @@
     transform: translate(-50%, -50%);
     color: rgba(4, 20, 34, 0.938);
 }
+
+.text-center{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-decoration: none;
+font-weight:bold;
+color: #026e81;
+}
 /* about section image css */
 .imageAboutPage {
     width: 100%;
@@ -84,6 +92,11 @@ font-variant: small-caps;
 }
 .card-title {
     text-align: center;
+}
+#hidden{
+display: none;
+visibility: hidden;
+
 }
 .card:hover .servicesIcon {
     color: #008000;
