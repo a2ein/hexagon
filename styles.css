@@ -1,10 +1,5 @@
 /* hero background image */
-.bgimage {
-    height:100vh;
-    background: url('img/f1.png');
-    background-size:cover;
-    position:relative;
-}
+
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
@@ -33,6 +28,12 @@ font-family: cursive;
 
 }
 /*background*/
+.bgimage {
+    height:100vh;
+    background: url('img/hexa.jpeg');
+    background-size:cover;
+    position:relative;
+}
 .background_about {
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/white.jpeg');
  
