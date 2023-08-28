@@ -1,41 +1,47 @@
 /*pack*/
-.card-body  li{
+.card-body li {
     color: #09ee3be7;
-    background-color: #f8f8f8; 
+    background-color: #f8f8f8;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    list-style-type:armenian;
+    list-style-type: armenian;
 }
-.card-body .des{
+
+.card-body .des {
     list-style: square;
     background-image:
-    linear-gradient(rgba(160,160,160,0.267),rgba(255, 255, 255, 0.616)),url("https://www.bing.com/th/id/OGC.e904152f727d70e777066bd122c7f2dd?pid=1.7&rurl=https%3a%2f%2f31.media.tumblr.com%2f8d0c81c7f8197780f267edb89be3c71c%2ftumblr_n2898tzRKj1rlaql2o1_500.gif&ehk=n1mYWN3wzT5kYjbe7wGKBl87WrUIAaktvoccc4c4l0Y%3d");
+        linear-gradient(rgba(160, 160, 160, 0.267), rgba(255, 255, 255, 0.616)), url("https://www.bing.com/th/id/OGC.e904152f727d70e777066bd122c7f2dd?pid=1.7&rurl=https%3a%2f%2f31.media.tumblr.com%2f8d0c81c7f8197780f267edb89be3c71c%2ftumblr_n2898tzRKj1rlaql2o1_500.gif&ehk=n1mYWN3wzT5kYjbe7wGKBl87WrUIAaktvoccc4c4l0Y%3d");
     color: #0c0c0ce0;
     background-repeat: no-repeat;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
- 
+
 }
-.card-body details{
+
+.card-body details {
     color: #002e36;
     background-color: #dbdada6e;
 }
+
 #pack {
     text-align: center;
     align-items: center;
     color: #ffffff;
     background-color: rgba(28, 209, 37, 0.767);
     text-decoration: none;
-border: none;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
 }
+
 .hero_desc {
     font-size: 2rem;
 }
+
 .hero-text {
     text-align: center;
     position: absolute;
@@ -45,97 +51,118 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgba(3, 65, 119, 0.938);
 }
 
-.text-center{
+.text-center {
 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-text-decoration: none;
-font-weight:bold;
-color: #03090a;
+    text-decoration: none;
+    font-weight: bold;
+    color: #03090a;
 }
+
 /* about section image css */
 .imageAboutPage {
     width: 100%;
 }
+
 /*team*/
-.cardteam{ width: 20%;
-align-items: center;
-text-align: center;
+.cardteam {
+    width: 20%;
+    align-items: center;
+    text-align: center;
 
 }
-.card-body-team{
-text-align: center;
-color: #771b1b;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-align-items: center;
+
+.card-body-team {
+    text-align: center;
+    color: #771b1b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
 }
+
 /*background*/
 .bgimage {
-    height:100vh;
+    height: 100vh;
     background: url('img/hexab.jpeg');
-    background-size:cover;
-    position:relative;
+    background-size: cover;
+    position: relative;
 }
+
 .background_about {
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/white.gif');
- 
+
 }
+
 .background_serve {
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/s.gif');
-  
+
 }
+
 .background_team {
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/gteam.jpeg');
 
 }
-.background_port{ background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/portfolio-vector-1632227.jpg');
-    
+
+.background_port {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/portfolio-vector-1632227.jpg');
+
 }
 
-.background_contact{ background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/contact.gif');}
+.background_contact {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/contact.gif');
+}
 
 .background_footer {
     background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(8, 8, 8, 0.5)), url('img/foot.gif');
 }
 
-.quotes{     
+.quotes {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: medium;
-color: rgb(59, 59, 59);
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 250, 250, 0.5)) , url('');
-   
+    color: rgb(59, 59, 59);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 250, 250, 0.5)), url('');
+
 }
-.card-img-top{
- text-align: center;
+
+.card-img-top {
+    text-align: center;
     align-items: center;
 }
-.card-text-team{
-color: #026e81;
-font-variant: small-caps;
+
+.card-text-team {
+    color: #026e81;
+    font-variant: small-caps;
 }
+
 /* services section css */
 .servicesText.card {
     height: 280px;
     cursor: pointer;
-  }
+}
+
 .servicesIcon {
     font-size: 36px;
     text-align: center;
     width: 100%;
 }
+
 .card-title {
     text-align: center;
 }
-#hidden{
-display: none;
-visibility: hidden;
+
+#hidden {
+    display: none;
+    visibility: hidden;
 
 }
+
 .card:hover .servicesIcon {
     color: #008000;
 }
+
 .servicesText:hover {
     border: 1px solid #002e36;
 }
+
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
     background-color: rgba(5, 103, 148, 0.171)
@@ -146,39 +173,46 @@ visibility: hidden;
     font-size: 36px;
     cursor: pointer;
 }
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+
+.fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover, .fa-linkedin:hover, .fa-twitch:hover {
     color: #008060;
 }
+
 .fab {
     color: #000000;
 }
+
 /* footer styling */
 #footer {
-font-family: Arial, Helvetica, sans-serif;
-font-weight: bolder;
-font-style: normal;
-color: rgba(156, 156, 156, 0.938);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    color: rgba(156, 156, 156, 0.938);
     text-align: center;
 }
+
 /* spacing on all sections */
 #about, #services, #portfolio, #contact {
     margin-top: 4rem;
     padding-top: 4rem;
 }
+
 #contact {
     padding-bottom: 4rem;
 }
+
 .nav-link {
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:#000000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #000000;
     font-size: 20px;
     font-style: bold;
 }
-.navbar-brand{
-font-weight: 500;
-font-family: fantasy;
+
+.navbar-brand {
+    font-weight: 500;
+    font-family: fantasy;
     color: rgb(0, 0, 0);
-    font-size: 20px;    
+    font-size: 20px;
 }
 
 
@@ -187,6 +221,7 @@ font-family: fantasy;
     .hero_title {
         font-size: 2.5rem;
     }
+
     .hero_desc {
         font-size: 1.5rem;
     }
@@ -197,6 +232,7 @@ font-family: fantasy;
     .hero_title {
         font-size: 4.5rem;
     }
+
     .hero_desc {
         font-size: 2rem;
     }
