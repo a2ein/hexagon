@@ -1,47 +1,52 @@
 /*notification*/
-.notification .m1{
+.notification .m1 {
     color: #771b1b;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-font-size: 30px;
-font-weight: bolder;
-background-color: #002e3613;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: #002e3613;
 
-text-decoration: none;
+    text-decoration: none;
 }
-.notification .m2{ 
 
-text-decoration: none;
+.notification .m2 {
+
+    text-decoration: none;
     color: #026e81;
     background-color: #03090a;
 }
-.notification .m3{
+
+.notification .m3 {
 
 
 
     color: #ffffffcb;
     background-color: #00241baf;
 }
+
 hr {
     border: none;
     height: 5px;
     background-color: black;
-  }
-  
+}
 
 
-.notification details{
-font-family: sans-serif;
-font-size: 20px;
-font-weight: bold;
+
+.notification details {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
     color: #002218ee;
     list-style: lower-roman;
     background-color: #002e362f;
 }
-.notification{
-color: rgba(2, 21, 73, 0.925);
+
+.notification {
+    color: rgba(2, 21, 73, 0.925);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-weight: 900;
+    font-weight: 900;
 }
+
 /*pack*/
 .card-body li {
     color: #09ee3be7;
@@ -228,19 +233,6 @@ div .scroll {
     background-color: rgba(5, 103, 148, 0.171)
 }
 
-/* social media icons styling */
-.social-icons {
-    font-size: 36px;
-    cursor: pointer;
-}
-
-.fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover, .fa-linkedin:hover, .fa-twitch:hover {
-    color: #008060;
-}
-
-.fab {
-    color: #000000;
-}
 
 /* footer styling */
 #footer {
@@ -269,10 +261,10 @@ div .scroll {
 }
 
 .navbar-brand {
-    font-weight: 500;
-    font-family: fantasy;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 30px;
 }
 
 
