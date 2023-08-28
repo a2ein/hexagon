@@ -4,11 +4,23 @@
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 font-size: 30px;
 font-weight: bolder;
-background-color: #002e36b2;
+background-color: #002e3613;
 
-
+text-decoration: none;
 }
+.notification .m2{ 
 
+text-decoration: none;
+    color: #026e81;
+    background-color: #03090a;
+}
+.notification .m3{
+
+
+
+    color: #ffffffcb;
+    background-color: #00241baf;
+}
 hr {
     border: none;
     height: 5px;
