@@ -53,7 +53,7 @@ hr {
     background-color: #f8f8f8;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    list-style-type: armenian;
+    list-style-type: none;
 }
 
 .abb {
@@ -66,8 +66,8 @@ hr {
 .card-body .des {
     list-style: square;
     background-image:
-        linear-gradient(rgba(160, 160, 160, 0.267), rgba(255, 255, 255, 0.616)), url("https://www.bing.com/th/id/OGC.e904152f727d70e777066bd122c7f2dd?pid=1.7&rurl=https%3a%2f%2f31.media.tumblr.com%2f8d0c81c7f8197780f267edb89be3c71c%2ftumblr_n2898tzRKj1rlaql2o1_500.gif&ehk=n1mYWN3wzT5kYjbe7wGKBl87WrUIAaktvoccc4c4l0Y%3d");
-    color: #000000f1;
+        linear-gradient(rgba(3, 19, 73, 0.685), rgba(0, 37, 117, 0.575)), url("img/des.gif.crdownload");
+    color: #faf9f9ec;
     background-repeat: no-repeat;
     font-family: sans-serif;
     font-weight: bold;
@@ -80,7 +80,7 @@ div .scroll {
     max-height: 80px;
     overflow: scroll;
     scroll-behavior: smooth;
-
+background: url('img/serve.gif.crdownload');
 }
 
 .card-body details {
