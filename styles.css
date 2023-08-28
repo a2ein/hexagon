@@ -4,10 +4,15 @@
     background-color: #f8f8f8; 
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+    list-style-type:armenian;
+}
+.card-body details{
+    color: #002e36;
+    background-color: #b8b8b86e;
 }
 #pack {
-    color: #e9e9e9e7;
-    background-color: rgb(172, 172, 172);
+    color: #ffffff;
+    background-color: rgba(28, 209, 37, 0.767);
     text-decoration: none;
 border: none;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
