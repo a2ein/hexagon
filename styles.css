@@ -18,13 +18,20 @@
     list-style: square;
     background-image:
         linear-gradient(rgba(160, 160, 160, 0.267), rgba(255, 255, 255, 0.616)), url("https://www.bing.com/th/id/OGC.e904152f727d70e777066bd122c7f2dd?pid=1.7&rurl=https%3a%2f%2f31.media.tumblr.com%2f8d0c81c7f8197780f267edb89be3c71c%2ftumblr_n2898tzRKj1rlaql2o1_500.gif&ehk=n1mYWN3wzT5kYjbe7wGKBl87WrUIAaktvoccc4c4l0Y%3d");
-    color: #0c0c0ce0;
+    color: #000000f1;
     background-repeat: no-repeat;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:sans-serif ;
     font-weight: bold;
 
-}
 
+}
+div .scroll{
+
+    max-height: 80px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+
+}
 .card-body details {
     color: #002e36;
     background-color: #dbdada6e;
