@@ -7,6 +7,13 @@
     list-style-type: armenian;
 }
 
+.abb {
+    color: #f8f8f8;
+    background-color: #026e81;
+    text-decoration: none;
+    overscroll-behavior-inline: contain;
+}
+
 .card-body .des {
     list-style: square;
     background-image:
