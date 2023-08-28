@@ -1,5 +1,17 @@
-/* hero background image */
-
+/*pack*/
+.card-body  li{
+    color: #09ee3be7;
+    background-color: #f8f8f8; 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#pack {
+    color: #e9e9e9e7;
+    background-color: rgb(172, 172, 172);
+    text-decoration: none;
+border: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
@@ -28,12 +40,16 @@ color: #03090a;
     width: 100%;
 }
 /*team*/
-.cardteam{ width: 20%;}
+.cardteam{ width: 20%;
+align-items: center;
+text-align: center;
+
+}
 .card-body-team{
 text-align: center;
 color: #771b1b;
-font-family: cursive;
-
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+align-items: center;
 }
 /*background*/
 .bgimage {
