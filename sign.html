@@ -1,21 +1,31 @@
-<form name="contact" method="POST" data-netlify="true">
-    <p>
-      <label>Your Name: <input type="text" name="name" /></label>
-    </p>
-    <p>
-      <label>Your Email: <input type="email" name="email" /></label>
-    </p>
-    <p>
-      <label>Your Role: <select name="role[]" multiple>
+<!DOCTYPE html>
+
+<head>
+  <link href="./styles.css">
+
+</head>
+
+<form class="buyer" name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>
+  </p> <br>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p> <br>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
         <option value="leader">Leader</option>
         <option value="follower">Follower</option>
       </select></label>
-    </p>
-    <p>
-      <label>Message: <textarea name="message"></textarea></label>
-    </p>
-    <p>
-      <button type="submit">Send</button>
-    </p>
-  </form>
-  
+  </p><br>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p><br>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form> <footer>
+  <p>All RIGHTS RESERVED @<a id="back" class="buyer" href="https://a2hexagon.netlify.app">HEXAGON</a></p>
+  <br> 
+  <a   href="https://a2hexagon.netlify.app"  style="text-align: center;background-color:red;color:black; text-decoration:none;">BACK TO HOME</a>
+</footer>

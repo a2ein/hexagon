@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google Fonts Pre Connect -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts Links (Roboto 400, 500 and 700 included) -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+
+    <!-- CSS Files Links -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- Title -->
+    <title>BUYER_FORM</title>
+
+</head>
+
+<body class="buyer">
+    <header>
+        <h1></h1>
+    </header>
+    <div class="buyer">
+
+        <form name="buyer" method="POST" netlify>
+            <fieldset>
+                <legend>
+
+
+
+                    BUYER FORM
+                </legend>
+                <label>
+                    YOUR NAME: <input name="name" type="text" placeholder="input your name please" required>
+                </label> <br><br>
+                <label>
+                    YOUR EMAIL: <input type="email" name="email" placeholder="your mail address please" required>
+                </label><br><br>
+                <label>
+                    YOUR PHONE NUMBER: <input type="number" maxlength="14" name="tel" required>
+                </label><br><br>
+                Types of service:<select name="servicename" required>
+
+                    <optgroup>
+                        <option>Choose one</option>
+                        <option>Website</option>
+                        <option>Desgining n stuff</option>
+                        <option>School/University Project</option>
+                        <option>IOT</option>
+                        <option>Educational Technology</option>
+                        <option>Digital MARKETING</option>
+
+
+                    </optgroup>
+                </select>
+                <br>
+                
+             <br>
+                <label>
+                    YOUR BUDGET:<select name="budget" id="myInput">
+                        <optgroup>
+                            <option>Choose One</option>
+                            <option id="o1">$5-$89</option>
+                            <option id="o1">$90-$150</option>
+                            <option id="o1">$150-$489</option>
+
+                        </optgroup>
+
+
+
+                    </select>
+                </label> <br>
+                <br><label>
+                 PACKAGE NAME: <p name="package" id="output">AI GENERATED PACKAGENAME </p>
+                </label><br><br>
+                <label>
+                    COMPANY NAME:
+                    <input type="textarea" rows="4" cols="4" name="COMPANY" placeholder="Company name"></textarea>
+                </label>
+                <label><br><br>
+                    MEETING DATE: <input type="date" name="datetime">
+                </label><br><br>
+                <label>
+                    Comment Box: <input type="text" placeholder="feel free to tell us what you want"
+                        name="additional_comment">
+                </label><br><br>
+                NB: After completing a meeting we will start your Project.And then we can guess about cost.
+
+            </fieldset>
+
+            <button type="submit">Submit</button>
+        </form>
+
+
+
+    </div>
+
+    <footer>
+        <p>All RIGHTS RESERVED @<a id="back" class="buyer" href="https://a2hexagon.netlify.app">HEXAGON</a></p>
+        <br> 
+        <a   href="https://a2hexagon.netlify.app"  style="text-align: center;background-color:red;color:black; text-decoration:none;">BACK TO HOME</a>
+    </footer>
+
+
+    <noscript>Your browser don't support JavaScript!</noscript>
+
+
+    <script src="script1.js">
+    </script>
+
+
+</body>
+
+</html>
