@@ -1,4 +1,11 @@
- /* form */
+/**gte */
+.translator{
+size: 7px;
+text-decoration: none;
+opacity: 35%;
+    background-color: #02062c3b;
+}
+/* form */
  .buyer {
     text-align: justify;
     text-decoration: none;
