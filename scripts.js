@@ -10,8 +10,4 @@ window.onscroll = function() {
         header.classList.remove('navbarDark');
     }
 }
-   // Add a listener for the 'load' event
-   window.addEventListener('load', function() {
-    // Hide the loader when the page has finished loading
-    document.getElementById('loader').style.display = 'none';
-});
+   
