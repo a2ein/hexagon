@@ -5,6 +5,10 @@ text-decoration: none;
 opacity: 35%;
     background-color: #02062c3b;
 }
+.hidden{
+    display: block;
+    visibility: hidden;
+}
 /* form */
  .buyer {
     text-align: justify;

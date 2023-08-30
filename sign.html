@@ -27,7 +27,11 @@
 
     gtag('config', 'G-K6GH1RYYQ2');
 </script>
-<form class="buyer" name="contact" method="POST" data-netlify="true">
+<form class="buyer" name="contact" method="POST" data-netlify="true"  netlify-honeypot="bot-field">
+  <p class="hidden">
+    <label>
+      Don’t fill this out if you’re human: <input name="bot-field" />
+    </label>
   <p>
     <label>Your Name: <input type="text" name="name" /></label>
   </p> <br>
