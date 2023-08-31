@@ -1,0 +1,30 @@
+<form name="review" method="POST" netlify netlify-honeypot="bot-field">
+    <fieldset>
+        <legend>
+Write Your Review
+        </legend>
+        <p class="hidden" style="display: none;">
+            <label>
+              Don’t fill this out if you’re human: <input name="bot-field" />
+            </label></p>
+        <label>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email"><br><br>
+    <label for="rating">Rating:</label><br>
+    <input type="radio" id="1-star" name="rating" value="1">
+    <label for="1-star">1 star</label><br>
+    <input type="radio" id="2-star" name="rating" value="2">
+    <label for="2-star">2 stars</label><br>
+    <input type="radio" id="3-star" name="rating" value="3">
+    <label for="3-star">3 stars</label><br>
+    <input type="radio" id="4-star" name="rating" value="4">
+    <label for="4-star">4 stars</label><br>
+    <input type="radio" id="5-star" name="rating" value="5">
+    <label for="5-star">5 stars</label><br><br>
+    <label for="review">Review:</label><br>
+    <textarea id="review" name="review"></textarea><br><br>
+    <input type="submit" value="Submit">
+  </form> 
+  

@@ -1,3 +1,27 @@
+.revbak{
+background-repeat: no-repeat;
+background-position: 100%;
+    background-image:linear-gradient(rgba(255,255,255,.5),rgba(255,255,255,.5))  , url(img/rev.gif);
+}
+.revbak legend , .rev1{
+color: #090231;
+    background-color: #d8d8d85e;
+    background-size:cover;
+}
+.rebox {
+    display: flex;
+    flex-direction: row;
+
+   }
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: row;
+    }
+  }
+  
+
+
 /**gte */
 .translator{
 size: 7px;
