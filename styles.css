@@ -1,352 +1,358 @@
-.revbak{
-background-repeat: no-repeat;
-background-position: 100%;
-    background-image:linear-gradient(rgba(255,255,255,.5),rgba(255,255,255,.5))  , url(img/rev.gif);
+.revbak {
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(img/rev.gif);
 }
-.revbak legend , .rev1{
-color: #090231;
+
+.revbak legend, .rev1 {
+    color: #090231;
     background-color: #d8d8d85e;
-    background-size:cover;
+    background-size: cover;
 }
+
 .rebox {
     display: flex;
     flex-direction: row;
 
-   }
-  /* Responsive layout - makes a one column layout instead of a two-column layout */
-  @media (max-width: 800px) {
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
     .flex-container {
-      flex-direction: row;
+        flex-direction: row;
     }
-  }
-  
+}
+
 
 
 /**gte */
-.translator{
-size: 7px;
-text-decoration: none;
-opacity: 35%;
+.translator {
+    size: 7px;
+    text-decoration: none;
+    opacity: 35%;
     background-color: #02062c3b;
 }
+
 .hidden {
     display: none;
- 
+
 }
+
 /* form */
- .buyer {
+.buyer {
     text-align: justify;
     text-decoration: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)) , url('img/raw.gif');
-background-size: cover;
-background-repeat: no-repeat;
-     justify-content: space-between;
-     color: #090231;
- }
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/raw.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    color: #090231;
+}
 
- .buyer legend {
+.buyer legend {
 
 
-     text-align: center;
- }
- .buyer button {
+    text-align: center;
+}
+
+.buyer button {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: medium;
-color: #f8f8f8;
-border: none;
+    color: #f8f8f8;
+    border: none;
     background-color: #002e36;
- }
-
- /*notification*/
- .notification .m1 {
-     color: #771b1b;
-     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-     font-size: 30px;
-     font-weight: bolder;
-     background-color: #002e3667;
-
-     text-decoration: none;
- }
-
- .notification .m2 {
-
-     text-decoration: none;
-     color: #026e81;
-     background-color: #03090a;
- }
-
- .notification .m3 {
-
-
-
-     color: #ffffffcb;
-     background-color: #00241baf;
- }
-
- hr {
-     border: none;
-     height: 5px;
-     background-color: black;
- }
-
-
-
- .notification details {
-     font-family: sans-serif;
-     font-size: 20px;
-     font-weight: bold;
-     color: #002218ee;
-     list-style: lower-roman;
-     background-color: #002e362f;
- }
-
- .notification {
-     color: rgba(2, 21, 73, 0.925);
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     font-weight: 900;
- }
-
- /*pack*/
- .card-body li {
-     color: #09ee3be7;
-     background-color: #f8f8f8;
-     font-family: 'Times New Roman', Times, serif;
-     font-weight: bold;
-     list-style-type: none;
- }
-
- .abb {
-     color: #f8f8f8;
-     background-color: #026e81;
-     text-decoration: none;
-     overscroll-behavior-inline: contain;
- }
-
- .card-body .des {
-     list-style: square;
-     background-image:
-         linear-gradient(rgba(3, 19, 73, 0.685), rgba(0, 37, 117, 0.575)), url("img/des.gif.crdownload");
-     color: #faf9f9ec;
-     background-repeat: no-repeat;
-     font-family: sans-serif;
-     font-weight: bold;
-
-
- }
-
- div .scroll {
-
-     max-height: 80px;
-     overflow: scroll;
-     scroll-behavior: smooth;
-     background: url('img/serve.gif.crdownload');
- }
-
- .card-body details {
-     color: #002e36;
-     background-color: #dbdada6e;
- }
-
- #pack {
-     text-align: center;
-     align-items: center;
-     color: #ffffff;
-     background-color: rgba(28, 209, 37, 0.767);
-     text-decoration: none;
-     border: none;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
- }
-
- /* text css above hero image*/
- .hero_title {
-     font-size: 4.5rem;
- }
-
- .hero_desc {
-     font-size: 2rem;
- }
-
- .hero-text {
-     text-align: center;
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     color: rgba(3, 65, 119, 0.938);
- }
-
- .text-center {
-
-     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-     text-decoration: none;
-     font-weight: bold;
-     color: #03090a;
- }
-
- /* about section image css */
- .imageAboutPage {
-     width: 100%;
- }
-
- /*team*/
- .cardteam {
-     width: 20%;
-     align-items: center;
-     text-align: center;
-
- }
-
- .card-body-team {
-     text-align: center;
-     color: #771b1b;
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     align-items: center;
- }
-
- /*background*/
- .bgimage {
-     height: 100vh;
-     background: url('img/hexab.jpeg');
-     background-size: cover;
-     position: relative;
- }
-
- .background_about {
-     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/white.gif');
-
- }
-
- .background_serve {
-     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/s.gif');
-
- }
-
- .background_team {
-     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/gteam.jpeg');
-
- }
-
- .background_port {
-     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/portfolio-vector-1632227.jpg');
-
- }
-
- .background_contact {
-     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/contact.gif');
- }
-
- .background_footer {
-     background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(8, 8, 8, 0.5)), url('img/foot.gif');
- }
-
- .quotes {
-     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-     font-size: medium;
-     color: rgb(59, 59, 59);
-     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 250, 250, 0.5)), url('');
-
- }
-
- .card-img-top {
-     text-align: center;
-     align-items: center;
- }
-
- .card-text-team {
-     color: #026e81;
-     font-variant: small-caps;
- }
-
- /* services section css */
- .servicesText.card {
-     height: 280px;
-     cursor: pointer;
- }
-
- .servicesIcon {
-     font-size: 36px;
-     text-align: center;
-     width: 100%;
- }
-
- .card-title {
-     text-align: center;
- }
-
- #hidden {
-     display: none;
-     visibility: hidden;
-
- }
-
- .card:hover .servicesIcon {
-     color: #008000;
- }
-
- .servicesText:hover {
-     border: 1px solid #002e36;
- }
-
- /* display background color black on navbar scroll */
- .navbarScroll.navbarDark {
-     background-color: rgba(5, 103, 148, 0.171)
- }
-
-
- /* footer styling */
- #footer {
-     font-family: Arial, Helvetica, sans-serif;
-     font-weight: bolder;
-     font-style: normal;
-     color: rgba(156, 156, 156, 0.938);
-     text-align: center;
- }
-
- /* spacing on all sections */
- #about, #services, #portfolio, #contact {
-     margin-top: 4rem;
-     padding-top: 4rem;
- }
-
- #contact {
-     padding-bottom: 4rem;
- }
-
- .nav-link {
-     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-     color: #000000;
-     font-size: 20px;
-     font-style: bold;
- }
-
- .navbar-brand {
-     font-weight: bold;
-     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-     color: rgb(0, 0, 0);
-     font-size: 30px;
- }
-
-
- /* For screens smaller than 600px */
- @media only screen and (max-width: 600px) {
-     .hero_title {
-         font-size: 2.5rem;
-     }
-
-     .hero_desc {
-         font-size: 1.5rem;
-     }
- }
-
- /* For screens larger than or equal to 600px */
- @media only screen and (min-width: 600px) {
-     .hero_title {
-         font-size: 4.5rem;
-     }
-
-     .hero_desc {
-         font-size: 2rem;
-     }
- }
+}
+
+/*notification*/
+.notification .m1 {
+    color: #771b1b;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: #002e3667;
+
+    text-decoration: none;
+}
+
+.notification .m2 {
+
+    text-decoration: none;
+    color: #026e81;
+    background-color: #03090a;
+}
+
+.notification .m3 {
+
+
+
+    color: #ffffffcb;
+    background-color: #00241baf;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    background-color: black;
+}
+
+
+
+.notification details {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #002218ee;
+    list-style: lower-roman;
+    background-color: #002e362f;
+}
+
+.notification {
+    color: rgba(2, 21, 73, 0.925);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+
+/*pack*/
+.card-body li {
+    color: #09ee3be7;
+    background-color: #f8f8f8;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.abb {
+    color: #f8f8f8;
+    background-color: #026e81;
+    text-decoration: none;
+    overscroll-behavior-inline: contain;
+}
+
+.card-body .des {
+    list-style: square;
+    background-image:
+        linear-gradient(rgba(3, 19, 73, 0.685), rgba(0, 37, 117, 0.575)), url("img/des.gif.crdownload");
+    color: #faf9f9ec;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-weight: bold;
+
+
+}
+
+div .scroll {
+
+    max-height: 80px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    background: url('img/serve.gif.crdownload');
+}
+
+.card-body details {
+    color: #002e36;
+    background-color: #dbdada6e;
+}
+
+#pack {
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: rgba(28, 209, 37, 0.767);
+    text-decoration: none;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+
+.hero_desc {
+    font-size: 2rem;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(3, 65, 119, 0.938);
+}
+
+.text-center {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: #03090a;
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+/*team*/
+.cardteam {
+    width: 20%;
+    align-items: center;
+    text-align: center;
+
+}
+
+.card-body-team {
+    text-align: center;
+    color: #771b1b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+}
+
+/*background*/
+.bgimage {
+    height: 100vh;
+    background: url('img/hexab.jpeg');
+    background-size: cover;
+    position: relative;
+}
+
+.background_about {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/white.gif');
+
+}
+
+.background_serve {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/s.gif');
+
+}
+
+.background_team {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/gteam.jpeg');
+
+}
+
+.background_port {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/portfolio-vector-1632227.jpg');
+
+}
+
+.background_contact {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/contact.gif');
+}
+
+.background_footer {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(8, 8, 8, 0.5)), url('img/foot.gif');
+}
+
+.quotes {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    color: rgb(59, 59, 59);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 250, 250, 0.5)), url('');
+
+}
+
+.card-img-top {
+    text-align: center;
+    align-items: center;
+}
+
+.card-text-team {
+    color: #026e81;
+    font-variant: small-caps;
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+}
+
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-title {
+    text-align: center;
+}
+
+#hidden {
+    display: none;
+    visibility: hidden;
+
+}
+
+.card:hover .servicesIcon {
+    color: #008000;
+}
+
+.servicesText:hover {
+    border: 1px solid #002e36;
+}
+
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: rgba(5, 103, 148, 0.171)
+}
+
+
+/* footer styling */
+#footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    color: rgba(156, 156, 156, 0.938);
+    text-align: center;
+}
+
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+
+#contact {
+    padding-bottom: 4rem;
+}
+
+.nav-link {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+
+/* For screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+    .hero_title {
+        font-size: 2.5rem;
+    }
+
+    .hero_desc {
+        font-size: 1.5rem;
+    }
+}
+
+/* For screens larger than or equal to 600px */
+@media only screen and (min-width: 600px) {
+    .hero_title {
+        font-size: 4.5rem;
+    }
+
+    .hero_desc {
+        font-size: 2rem;
+    }
+}
