@@ -1,0 +1,32 @@
+/**gte */
+.translator{
+    size: 7px;
+    text-decoration: none;
+    opacity: 20%;
+        background-color: #69696b3b;
+    }
+    .about{
+background-color: rgba(255, 255, 255, 0.767);
+
+        color: rgb(0, 5, 73);
+    }
+    .hd{
+
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: firebrick;
+    text-align: center;
+    }
+    .tutorial{ display: flex;
+       
+        text-align: center;
+}
+legend{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tutorial form{
+align-items: center;
+
+    text-align: center;
+padding: 25%;
+}
