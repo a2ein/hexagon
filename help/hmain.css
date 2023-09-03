@@ -24,9 +24,23 @@ legend{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.tutorial form{
+.tutorial form{background-image: url("img/OIP.jpeg");
 align-items: center;
-
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 40px;
     text-align: center;
 padding: 25%;
+}
+.tutorial fieldset{
+
+    border: none;
+}
+body{
+background-image: linear-gradient(rgba(255,255,255,.5),rgba(255,255,255,.5)) , url("img/c.jpg");
+
+background-size: cover ;
+}
+.tutorial1{
+
+ 
 }
